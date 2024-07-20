@@ -45,5 +45,4 @@ Esta aplicación web permite a los usuarios reservar productos de limpieza segú
 ### Clonar el Repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/servicio-de-limpieza.git
-cd servicio-de-limpieza
+git clone https://github.com/Warling-Sebastian/clearning-store.git
