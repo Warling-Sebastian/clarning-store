@@ -8,8 +8,6 @@ Un sistema de reserva y gestión de Productos de limpieza.
 - [Características](#características)
 - [Tecnologías](#tecnologías)
 - [Instalación](#instalación)
-- [Uso](#uso)
-- [Contribuciones](#contribuciones)
 - [Licencia](#licencia)
 - [Contacto](#contacto)
 
@@ -46,3 +44,7 @@ Esta aplicación web permite a los usuarios reservar productos de limpieza segú
 
 ```bash
 git clone https://github.com/Warling-Sebastian/clearning-store.git
+
+## Lisence Creative Commons Zero (CC0)
+
+- Sin Restricciones: No hay requisitos de atribución ni ninguna otra condición. El software puede ser utilizado de cualquier manera, incluso en proyectos comerciales, sin necesidad de pedir permiso.
