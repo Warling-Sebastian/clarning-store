@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+
+
+.FontLogo{
+  display: flex;
+  font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #FEFEFA;
+}
+.Search{
+  
+}
+.Search-imput{
+
+}
+.Search-button{
+
+}
