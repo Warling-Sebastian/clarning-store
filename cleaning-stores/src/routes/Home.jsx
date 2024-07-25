@@ -1,14 +1,16 @@
 import React from "react";
-import {Logo} from "../components/atoms/Logo";
-import {Search} from "../components/moleculas/Search";
-
+import Naver from "../components/organismos/Nav";
+import "../css/home.css";
 function Home() {
   return (
     <div>
-      <header>
-        <Search/>
-        <Logo/>
-      </header>
+      <div className="Body-home">
+        <header>
+          <Naver />
+          <section className="Fondo-main-home">
+          </section>
+        </header>
+      </div>
     </div>
   );
 }

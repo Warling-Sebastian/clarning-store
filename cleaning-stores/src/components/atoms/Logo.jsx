@@ -8,7 +8,7 @@ export function Logo() {
         <h2>
             Zone
         </h2>
-        <img width={'90px'} src={logo} alt="Logo" />
+        <img width={'150px'} src={logo} alt="Logo" />
         <h2>
             Clear
         </h2>

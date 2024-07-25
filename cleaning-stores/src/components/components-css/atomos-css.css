@@ -1,22 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+:root {
+  --fondo_blanco: #fefefa;
+  --negro: #000;
+  --amarillo:#E8CF36;
+}
 
-
-
-.FontLogo{
+.FontLogo {
+  width: 100%;
   display: flex;
   font-family: "Bodoni Moda SC", serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  color: #FEFEFA;
+  color: var(--fondo_blanco);
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
 }
-.Search{
-  
+.Search {
+  display: flex;
+  justify-content: space-around;
 }
-.Search-imput{
+.Search div p{
+  color: var(--fondo_blanco);
+}
+.Conteiner_Search-imput {
+  display: flex;
+  width: 75%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fefefa;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.Search-imput {
+  display: flex;
+  align-items: center;
+  background-color: var(--negro);
+  border: none;
+  width: 95%;
+  outline: none;
+  color: #fefefa;
+  font-size: large;
+}
+.Search-button {
+  border: none;
+  background: none;
+}
+.Search-icon {
+  width: 30px;
+  margin: 10px;
+}
+.Nav {
+  background-color: var(--negro);
+  padding: 20px 10px;
+}
+.Contenedor-list{
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+.Contenedor-list a{
+  color: var(--fondo_blanco);
+text-decoration: none;
 
 }
-.Search-button{
+.Contenedor-list a:hover{
+  color:var(--amarillo);
+  transition: .3s;
+}
+.Fondo-main-home{
+  margin: 0;
+  padding: 0;
 
+  margin-top: 15px;
+  width: 100%;
+  height: 80vh;
+  background-image: url(../assets/fondo.jpg);
+  background-size: cover;
 }
