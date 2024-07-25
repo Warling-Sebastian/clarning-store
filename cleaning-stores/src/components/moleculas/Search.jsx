@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 import SearchImput from "../atoms/SearchImput";
 import SearchButton from "../atoms/SearchButton";
-import logoWs from '../assets/whatsapp.svg';
-import logoFb from '../assets/facebook.svg' 
-import logoTt from '../assets/ticktock.svg' 
-import logoIg from '../assets/instagram.svg' 
+import logoWs from "../assets/whatsapp.svg";
+import logoFb from "../assets/facebook.svg";
+import logoTt from "../assets/ticktock.svg";
+import logoIg from "../assets/instagram.svg";
 
 export function Search() {
   return (
@@ -18,10 +18,18 @@ export function Search() {
         <SearchButton />
       </div>
       <div className="Search-icons">
-        <Link to={'/'}><img src={logoIg} className="Search-icon" alt="ws" /></Link>
-        <Link to={'/'}><img src={logoFb} className="Search-icon" alt="ig" /></Link>
-        <Link to={'/'}><img src={logoTt} className="Search-icon" alt="tt" /></Link>
-        <Link to={'/'}><img src={logoWs} className="Search-icon" alt="fb" /></Link>
+        <Link to={"/"}>
+          <img src={logoIg} className="Search-icon" alt="ws" />
+        </Link>
+        <Link to={"/"}>
+          <img src={logoFb} className="Search-icon" alt="ig" />
+        </Link>
+        <Link to={"/"}>
+          <img src={logoTt} className="Search-icon" alt="tt" />
+        </Link>
+        <Link to={"/"}>
+          <img src={logoWs} className="Search-icon" alt="fb" />
+        </Link>
       </div>
     </div>
   );

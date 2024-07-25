@@ -1,5 +1,5 @@
 import React from "react";
-import "../components-css/atomos-css.css"
+import "../components-css/atomos-css.css";
 import { Link } from "react-router-dom";
 function List() {
   return (

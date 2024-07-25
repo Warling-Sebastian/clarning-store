@@ -3,7 +3,7 @@
 :root {
   --fondo_blanco: #fefefa;
   --negro: #000;
-  --amarillo:#E8CF36;
+  --amarillo: #e8cf36;
 }
 
 .FontLogo {
@@ -22,7 +22,7 @@
   display: flex;
   justify-content: space-around;
 }
-.Search div p{
+.Search div p {
   color: var(--fondo_blanco);
 }
 .Conteiner_Search-imput {
@@ -57,7 +57,7 @@
   background-color: var(--negro);
   padding: 20px 10px;
 }
-.Contenedor-list{
+.Contenedor-list {
   list-style: none;
   width: 100%;
   display: flex;
@@ -67,16 +67,15 @@
   margin: 0;
   padding: 0;
 }
-.Contenedor-list a{
+.Contenedor-list a {
   color: var(--fondo_blanco);
-text-decoration: none;
-
+  text-decoration: none;
 }
-.Contenedor-list a:hover{
-  color:var(--amarillo);
-  transition: .3s;
+.Contenedor-list a:hover {
+  color: var(--amarillo);
+  transition: 0.3s;
 }
-.Fondo-main-home{
+.Fondo-main-home {
   margin: 0;
   padding: 0;
 

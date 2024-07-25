@@ -7,8 +7,7 @@ function Home() {
       <div className="Body-home">
         <header>
           <Naver />
-          <section className="Fondo-main-home">
-          </section>
+          <section className="Fondo-main-home"></section>
         </header>
       </div>
     </div>
