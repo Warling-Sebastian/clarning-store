@@ -3,6 +3,7 @@
 Esta es la interfaz que usaran los usuarios al momento de entrar a la pagina para registrarse o iniciar sesión.
 
 -Es Responsive ✅
+
 -Falta hacerla funcional 🔨
 ### Clonar el Repositorio
 
