@@ -1,4 +1,4 @@
-# Interfaz de Registro y Inicio de sesión
+# Interfaz de Registro e Inicio de sesión
 
 Esta es la interfaz que usaran los usuarios al momento de entrar a la pagina para registrarse o iniciar sesión.
 
