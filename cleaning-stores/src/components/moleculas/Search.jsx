@@ -10,7 +10,7 @@ import logoIg from "../assets/instagram.svg";
 export function Search() {
   return (
     <div className="Search">
-      <div>
+      <div className="num">
         <p>+1 (809) 943 9787</p>
       </div>
       <div className="Conteiner_Search-imput">

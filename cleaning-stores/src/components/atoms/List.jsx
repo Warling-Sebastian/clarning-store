@@ -5,28 +5,28 @@ function List() {
   return (
     <div>
       <ul className="Contenedor-list">
-        <Link href="#">
+        <Link to='/log/'>
           <li>HOME</li>
         </Link>
-        <Link href="#">
+        <Link to='/log/'>
           <li>GALLERY</li>
         </Link>
-        <Link href="#">
+        <Link to='/log/'>
           <li>INFO</li>
         </Link>
-        <Link href="#">
+        <Link to='/log/'>
           <li>EVENTS</li>
         </Link>
-        <Link href="#">
+        <Link to='/log/'>
           <li>STORE LOCATION</li>
         </Link>
-        <Link href="#">
+        <Link to='/log/'>
           <li>CONTACT US</li>
         </Link>
-        <Link href="#">
+        <Link to='/log/sing_up'>
           <li>SIGN UP</li>
         </Link>
-        <Link href="#">
+        <Link to='/log/sing_in'>
           <li>SIGN IN</li>
         </Link>
       </ul>

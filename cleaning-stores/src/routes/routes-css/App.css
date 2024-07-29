@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+
+.Background {
+  position: absolute;
+  background-image: url("/fondo.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  filter: blur(4px);
+}
+.App {
+  width: auto;
+  color: #fefefa;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+}
+.App-header{
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.Form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 700px;
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.input {
+  margin-bottom: 20px;
+  width: 100%;
+  outline: none;
+  border-radius: 3px;
+  border: none;
+  font-size: 16px;
+  padding: 15px;
+}
+
+.button {
+  color: #e8cf36;
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all 200ms;
+}
+
+.Form-container p {
+  font-weight: 600;
+}
+.a {
+  color: #e8cf36;
+  text-decoration: none;
+}
+.a:hover {
+  text-decoration: underline;
+}
+.button:hover {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.input:focus {
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3),
+    0 0 15px rgba(255, 255, 255, 0.2);
+}
+.Form-img-container {
+  display: flex;
+  align-items: center;
+}
+.logotext {
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  margin: 0 0;
+}
+.Form-img {
+  width: 150px;
+  height: auto;
+}
+
+.Form-register {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+}
+.Form-login {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+}
+.Form-container h1 {
+  font-size: 48px;
+}
+.Form-container p {
+  font-size: 26px;
+}
+
+/*responsive */
+
+@media (max-width: 700px) {
+  .Form-login {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+  }
+  .App-header{
+    height: 95vh;
+    display: grid;
+    place-items: center;
+  }
+  .Form-container {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin: 0;
+  }
+  .button {
+    font-size: 28px;
+    padding: 10px;
+  }
+}
