@@ -18,4 +18,3 @@ function Naver() {
   );
 }
 export default Naver;
-F;
